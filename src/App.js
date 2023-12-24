@@ -39,12 +39,11 @@ class App extends React.Component {
       minHeight: 200.00,
       minWidth: 200.00,
       scale: 1.00,
-      scaleMobile: 1.00
+      scaleMobile: 1.00,
+      color: 0xf20a14,
+      backgroundColor: 0x131313
     })
   }
-
-  
-
 
 
   componentWillUnmount() {

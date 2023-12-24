@@ -7,19 +7,15 @@ import Modal from '@mui/material/Modal';
 
 
 const gForm = {
-    // "publicURL":"https://docs.google.com/forms/d/e/1FAIpQLScMWrxLwF0wp38iLipIT8cqAK-BZjqga9HT_lhEbPf1kV4X1A/formResponse",
-    "publicURL":"https://docs.google.com/forms/d/e/1FAIpQLScIpY3AAVn9wOEtHm8A7jUMXTbm43We4i2kvmvp4mQBZy3lPg/formResponse",
-    // "formID": "1jhqFt0AhVv-PbM2WHkD2YZtU8-9J9y1BRh_JBmNdBnQ",
-    "formID": "1UxyBnZyshD3URLIpmYYGY26oC4x-WVyXx1P-KT1Hra4",
+    "publicURL":"https://docs.google.com/forms/d/e/1FAIpQLScdrb5s_y9QAHTu9cZShI9vcwn2TP1vAYiUzxIKI-425Q8FIA/formResponse",
     "Name":"entry.797876457",
-    "studentid":"entry.295637097",
-    "contactnum":"entry.747973734",
-    "whatsappnum":"entry.85295045",
-    "batch":"entry.833827253",
-    "preference1":"entry.1677527394",
-    "question_us1":"entry.811219598",
-    "preference2":"entry.1055413191",
-    "question_us2":"entry.664958296"
+    "Email":"entry.295637097",
+    "Phone":"entry.747973734",
+    "Batch": "entry.337213622",
+    "P1": "entry.1131215445",
+    "P2": "entry.271320743",
+    "P3": "entry.429453481",
+    "Question": "entry.1567616829"
 }
 
 
@@ -71,7 +67,7 @@ export default class ContactUs extends React.Component{
     render() { 
         return (
             <>
-                <div className="pt-32 mx-6 sm:mx-24 md:mx-32 lg:mx-40 text-gray-100">
+                <div className="pt-20 mx-6 sm:mx-24 md:mx-32 lg:mx-40 text-gray-100">
                 <Modal
                     open={this.state.open}
                     onClose={this.handleClose}
@@ -80,14 +76,15 @@ export default class ContactUs extends React.Component{
                         <div className='backdrop-blur-md bg-black/[0.5] p-4 px-6 rounded-lg text-center '>
                             <h2 className='font-medium text-lg md:text-xl mb-2'>Thank You</h2>
                             <p className='mb-2'>
-                                Thank you for reaching out. We got your message and will respond as soon as we can. Have a nice day!
+                                Thank you for registering.
                             </p>
+                            <p className='mb-2'>Happy Learning 🚀🚀</p>
                             <Button className="font-bold" variant="text"  onClick={this.handleClose}>Close</Button>
                         </div>
                     </Box>
                 </Modal>
                     <h1 className="text-2xl md:text-4xl font-medium mb-10 text-center">
-                        Contact Us
+                        Register
                     </h1>
                     <div className='lg:flex bg-black/[.4] backdrop-blur-md rounded-xl p-8 mb-24 text-sm md:text-base'>
                         <form id="contactForm" className="lg:w-3/5" onSubmit={this.handleSubmit}
@@ -103,26 +100,18 @@ export default class ContactUs extends React.Component{
                                 </div>
                                 <div className="md:flex w-full mb-4">
                                     <label className="md:w-2/5 items-center flex font-medium mb-2" for="grid-first-name">
-                                        Student ID <span className='pl-1 text-red-500'>*</span>
+                                        Email <span className='pl-1 text-red-500'>*</span>
                                     </label>
-                                    <input onChange={this.handleChange} name={gForm.studentid} className="block rounded w-full border border-gray-500/[.5] bg-black/[0.4] py-1 px-2" 
-                                        id="grid-first-name" type="email" placeholder="Enter your Student ID" required/>
+                                    <input onChange={this.handleChange} name={gForm.Email} className="block rounded w-full border border-gray-500/[.5] bg-black/[0.4] py-1 px-2" 
+                                        id="grid-first-name" type="email" placeholder="Enter your email address" required/>
                                     {/* <p className="text-red-500 text-xs italic">Please fill out this field.</p> */}
                                 </div>
                                 <div className="md:flex w-full mb-4">
                                     <label className="md:w-2/5 items-center flex font-medium mb-2">
                                         Contact No. <span className='pl-1 text-red-500'>*</span>
                                     </label>
-                                    <input onChange={this.handleChange} name={gForm.contactnum} className="block rounded w-full border border-gray-500/[.5] bg-black/[0.4] py-1 px-2" 
+                                    <input onChange={this.handleChange} name={gForm.Phone} className="block rounded w-full border border-gray-500/[.5] bg-black/[0.4] py-1 px-2" 
                                         id="grid-first-name" type="text" placeholder="Enter your contact number" required/>
-                                    {/* <p className="text-red-500 text-xs italic">Please fill out this field.</p> */}
-                                </div>
-                                <div className="md:flex w-full mb-4">
-                                    <label className="md:w-2/5 items-center flex font-medium mb-2">
-                                        Whatsapp No. <span className='pl-1 text-red-500'>*</span>
-                                    </label>
-                                    <input onChange={this.handleChange} name={gForm.whatsappnum} className="block rounded w-full border border-gray-500/[.5] bg-black/[0.4] py-1 px-2" 
-                                        id="grid-first-name" type="text" placeholder="Enter your whatsapp number" required/>
                                     {/* <p className="text-red-500 text-xs italic">Please fill out this field.</p> */}
                                 </div>
                                 <div className="md:flex w-full mb-4">
@@ -131,22 +120,24 @@ export default class ContactUs extends React.Component{
                                     </label>
                                     <select
                                         onChange={this.handleChange}
-                                        name={gForm.batch}
+                                        name={gForm.Batch}
                                         className="block rounded w-full border border-gray-500/[.5] bg-black/[0.4] py-1 px-2"
                                         id="preference"
                                         required
                                     >
                                         <option value="">Select Batch</option>
-                                        <option value="A">B.Tech 2022</option>
-                                        <option value="B">B.Tech 2021</option>
-                                        <option value="C">B.Tech 2020</option>
-                                        <option value="D">B.Tech 2019</option>
-                                        <option value="E">M.Tech 2022</option>
-                                        <option value="F">M.Tech 2021</option>
-                                        <option value="G">M.Sc.(IT/DS) 2022</option>
-                                        <option value="H">M.Sc.(IT/DS) 2021</option>
-                                        <option value="I">M.Des</option>
-                                        <option value="J">PhD</option>
+                                        <option value="B. Tech 2023">B. Tech 2023</option>
+                                        <option value="B. Tech 2022">B. Tech 2022</option>
+                                        <option value="B. Tech 2021">B. Tech 2021</option>
+                                        <option value="B. Tech 2020">B. Tech 2020</option>
+                                        <option value="M. Tech 2023">M. Tech 2023</option>
+                                        <option value="M. Tech 2022">M. Tech 2022</option>
+                                        <option value="M.Sc. (IT/DS) 2023">M.Sc. (IT/DS) 2023</option>
+                                        <option value="M.Sc. (IT/DS) 2022">M.Sc. (IT/DS) 2022</option>
+                                        <option value="M.Des.">M.Des.</option>
+                                        <option value="PhD">PhD</option>
+                                        {/* <option value="C">Choice 3</option> */}
+                                        
                                     </select>
                                 </div>
                                 <div className="md:flex w-full mb-4">
@@ -155,89 +146,91 @@ export default class ContactUs extends React.Component{
                                     </label>
                                     <select
                                         onChange={this.handleChange}
-                                        name={gForm.preference1}
+                                        name={gForm.P1}
                                         className="block rounded w-full border border-gray-500/[.5] bg-black/[0.4] py-1 px-2"
                                         id="preference"
                                         required
                                     >
-                                        <option value="">Select Preference</option>
-                                        <option value="A">HTML-CSS-JS: Expense App</option>
-                                        <option value="B">Python Scripts: Word Clone</option>
+                                        <option value="">Select Preference 1</option>
+                                        <option value="HTML-CSS-JS">HTML-CSS-JS</option>
+                                        <option value="Python with GUI">Python with GUI</option>
+                                        <option value="Systems Programming">Systems Programming</option>
+                                        <option value="React JS">React JS</option>
+                                        <option value="Node JS">Node JS</option>
+                                        <option value="Django">Django</option>
+                                        <option value="Data Science(Basics)">Data Science(Basics)</option>
+                                        <option value="Data Science(Advanced)">Data Science(Advanced)</option>
+                                        <option value="Flutter">Flutter</option>
+                                        <option value="Deep Learning(Basics)">Deep Learning(Basics)</option>
+                                        <option value="Deep Learning(Advanced)">Deep Learning(Advanced)</option>
+                                        {/* <option value="C">Choice 3</option> */}
                                     </select>
                                 </div>
-                                    <div className="md:flex w-full mb-4">
+                                <div className="md:flex w-full mb-4">
                                     <label className="md:w-2/5 items-center flex block font-medium mb-2" htmlFor="preference">
-                                        Multiple Choice <span className='pl-1 text-red-500'>*</span>
+                                        Preference 2 <span className='pl-1 text-red-500'>*</span>
                                     </label>
                                     <select
                                         onChange={this.handleChange}
-                                        name={gForm.Preference}
+                                        name={gForm.P2}
                                         className="block rounded w-full border border-gray-500/[.5] bg-black/[0.4] py-1 px-2"
                                         id="preference"
                                         required
                                     >
-                                        <option value="">Select Choice</option>
-                                        <option value="A">Option A</option>
-                                        <option value="B">Option B</option>
-                                        <option value="C">Option C</option>
-                                        <option value="D">Option D</option>
+                                        <option value="">Select Preference 2</option>
+                                        <option value="HTML-CSS-JS">HTML-CSS-JS</option>
+                                        <option value="Python with GUI">Python with GUI</option>
+                                        <option value="Systems Programming">Systems Programming</option>
+                                        <option value="React JS">React JS</option>
+                                        <option value="Node JS">Node JS</option>
+                                        <option value="Django">Django</option>
+                                        <option value="Data Science(Basics)">Data Science(Basics)</option>
+                                        <option value="Data Science(Advanced)">Data Science(Advanced)</option>
+                                        <option value="Flutter">Flutter</option>
+                                        <option value="Deep Learning(Basics)">Deep Learning(Basics)</option>
+                                        <option value="Deep Learning(Advanced)">Deep Learning(Advanced)</option>
+                                        {/* <option value="C">Choice 3</option> */}
+                                    </select>
+                                </div>
+                                <div className="md:flex w-full mb-4">
+                                    <label className="md:w-2/5 items-center flex block font-medium mb-2" htmlFor="preference">
+                                        Preference 3 <span className='pl-1 text-red-500'>*</span>
+                                    </label>
+                                    <select
+                                        onChange={this.handleChange}
+                                        name={gForm.P3}
+                                        className="block rounded w-full border border-gray-500/[.5] bg-black/[0.4] py-1 px-2"
+                                        id="preference"
+                                        required
+                                    >
+                                        <option value="">Select Preference 3</option>
+                                        <option value="HTML-CSS-JS">HTML-CSS-JS</option>
+                                        <option value="Python with GUI">Python with GUI</option>
+                                        <option value="Systems Programming">Systems Programming</option>
+                                        <option value="React JS">React JS</option>
+                                        <option value="Node JS">Node JS</option>
+                                        <option value="Django">Django</option>
+                                        <option value="Data Science(Basics)">Data Science(Basics)</option>
+                                        <option value="Data Science(Advanced)">Data Science(Advanced)</option>
+                                        <option value="Flutter">Flutter</option>
+                                        <option value="Deep Learning(Basics)">Deep Learning(Basics)</option>
+                                        <option value="Deep Learning(Advanced)">Deep Learning(Advanced)</option>
+                                        {/* <option value="C">Choice 3</option> */}
                                     </select>
                                 </div>
                                 <div className="w-full mb-5">
                                     <label className="block font-medium mb-2 lg:mb-3">
-                                        Message <span className='text-red-500'>*</span>
+                                        Questions?? <span className='text-red-500'>*</span>
                                     </label>
-                                    <textarea onChange={this.handleChange} name={gForm.Message} rows="4" className="block rounded w-full border border-gray-500/[.5] bg-black/[0.4] py-1 px-2" 
-                                        id="grid-first-name" placeholder="Drop us a message :)" />
+                                    <textarea onChange={this.handleChange} name={gForm.Question} rows="4" className="block rounded w-full border border-gray-500/[.5] bg-black/[0.4] py-1 px-2" 
+                                        id="grid-first-name" placeholder="Drop us any question that you have regarding WoC :)" />
                                     {/* <p className="text-red-500 text-xs italic">Please fill out this field.</p> */}
-                                </div>
-                                <div className="md:flex w-full mb-4">
-                                    <label className="md:w-2/5 items-center flex block font-medium mb-2" htmlFor="preference">
-                                        Preference <span className='pl-1 text-red-500'>*</span>
-                                    </label>
-                                    <select
-                                        onChange={this.handleChange}
-                                        name={gForm.Preference}
-                                        className="block rounded w-full border border-gray-500/[.5] bg-black/[0.4] py-1 px-2"
-                                        id="preference"
-                                        required
-                                    >
-                                        <option value="">Select Preference</option>
-                                        <option value="A">A</option>
-                                        <option value="B">B</option>
-                                        <option value="C">C</option>
-                                        <option value="D">D</option>
-                                    </select>
                                 </div>
                                 <div className='w-full mb-5 text-center lg:text-left lg:mb-0'>
                                     <input className="bg-green-600 hover:bg-green-800 font-medium px-4 py-2 rounded" type="submit" value="Submit"/>
                                 </div>
                             </div>
                         </form>
-                        <hr className="lg:hidden mx-auto border-gray-500 my-4" />
-                        <div className='lg:w-2/5 md:mx-3 lg:ml-6'>
-                            <iframe className='w-full rounded-lg mb-3' title="DA-IICT Location"
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14669.989595290104!2d72.6289155!3d23.188537!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2a3c9618d2c5%3A0xc54de484f986b1fa!2sDA-IICT!5e0!3m2!1sen!2sin!4v1678437146026!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            
-                            <div className='text-xs md:text-sm mb-5'>
-                                Dhirubhai Ambani Institute Of Information And Communication Technology<br/>
-                                Near Indroda Circle<br/>
-                                Gandhinagar - 382007<br/>
-                                Gujarat, India<br/>
-                            </div>
-                            <hr className="lg:hidden mx-auto border-gray-500 my-4" />
-                            <div className="flex shrink items-center gap-4 mb-3 justify-center lg:justify-start">
-                                <a href="https://github.com/MSTC-DA-IICT"><img className="h-7" src={process.env.PUBLIC_URL + "/images/github.png"} alt="Github"/></a>
-                                <a href="https://www.linkedin.com/company/microsoft-student-technical-club-da-iict/mycompany/?viewAsMember=true"><img className="h-7" src={process.env.PUBLIC_URL + "/images/linkedin.png"} alt="LinkedIn"/></a>
-                                <a href="https://www.youtube.com/@mstcda-iict9181"><img className="h-6" src={process.env.PUBLIC_URL + "/images/yt.png"} alt="Youtube"/></a>
-                                <a href="https://www.instagram.com/mstc_daiict/"><img className="h-7" src={process.env.PUBLIC_URL + "/images/insta.png"} alt="Instagram"/></a>
-                            </div>   
-                            <div className='flex gap-2 mb-3 justify-center lg:justify-start'>
-                                <a href="mailto: microsoftclub@daiict.ac.in" className="hover:text-cyan-400">
-                                    microsoftclub@daiict.ac.in
-                                </a>
-                            </div>
-                        </div>
                     </div> 
                 </div>
             </>
