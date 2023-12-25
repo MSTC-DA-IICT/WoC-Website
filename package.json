@@ -1,6 +1,6 @@
 {
   "homepage": "https://woc.github.io/",
-  "name": "mstc-website",
+  "name": "woc-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

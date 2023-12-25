@@ -35,7 +35,7 @@ export default function Navbar() {
                   <img
                     className="block h-16 md:h-20 w-auto py-1 md:py-2"
                     src={process.env.PUBLIC_URL + "/images/c3.png"}
-                    alt="MSTC"
+                    alt="WoC"
                   />
                   {/* <img
                     className="block h-16 md:h-20 w-auto py-1 md:py-2"
