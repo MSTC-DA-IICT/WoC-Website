@@ -52,7 +52,7 @@ class App extends React.Component {
 
     render(){
     return(
-    <BrowserRouter basename='woc'>
+    <BrowserRouter basename='WoC-Website'>
       <ScrollToTop />
       <div id="parent" ref={this.vantaRef} className='min-h-screen'>
       <Navbar className="z-2"/>
