@@ -12,6 +12,7 @@ import Events from './components/Events';
 import ContactUs from './components/ContactUs'
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import Stages from './stages';
 
 
 function ScrollToTop() {
@@ -53,7 +54,7 @@ class App extends React.Component {
 
     render(){
     return(
-    <BrowserRouter basename='mstc-website-23'>
+    <BrowserRouter basename='woc'>
       <ScrollToTop />
       <div id="parent" ref={this.vantaRef} className='min-h-screen'>
       <Navbar className="z-2"/>
@@ -62,6 +63,7 @@ class App extends React.Component {
         <Route path="/categories" element={<Events />} />
         <Route path="/members" element={<Members />} />
         <Route path="/register" element={<ContactUs />} />
+        <Route path="/stages" element={<Stages />} />
       </Routes>
       <Footer/>
       </div>
@@ -69,7 +71,6 @@ class App extends React.Component {
     )
   }
 }
-
 
 export default App;
 

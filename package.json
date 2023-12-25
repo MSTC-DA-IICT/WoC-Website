@@ -1,5 +1,5 @@
 {
-  "homepage": "https://mstc-da-iict.github.io/mstc-website-23",
+  "homepage": "https://woc.github.io/",
   "name": "mstc-website",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +9,8 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@headlessui/react": "^1.7.7",
     "@iconscout/react-unicons": "^1.1.6",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/lab": "^4.0.0-alpha.61",
     "@mui/material": "^5.11.12",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

@@ -7,7 +7,8 @@ const navigation = [
     {name:"Categories", href:"/categories"},
     // {name:"Projects", href:'#'},
     // {name:"Dreamspark", href:"/dreamspark"},
-    {name:"Members", href:"/members"},
+    // {name:"Members", href:"/members"},
+    {name: "Timeline", href:"/stages"},
     {name:"Register", href:"/register"}
 ]
 
