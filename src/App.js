@@ -6,8 +6,6 @@ import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './components/Home'
-// import Dreamspark from './components/Dreamspark';
-import Members from './components/Members';
 import Events from './components/Events';
 import ContactUs from './components/ContactUs'
 import { useEffect } from "react";
@@ -61,7 +59,6 @@ class App extends React.Component {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/categories" element={<Events />} />
-        <Route path="/members" element={<Members />} />
         <Route path="/register" element={<ContactUs />} />
         <Route path="/stages" element={<Stages />} />
       </Routes>
