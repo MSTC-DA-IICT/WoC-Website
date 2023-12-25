@@ -4,11 +4,11 @@ import { UilBars, UilTimes } from '@iconscout/react-unicons'
 
 const navigation = [
     {name:"Home", href:"/"},
-    {name:"Events", href:"/events"},
+    {name:"Categories", href:"/categories"},
     // {name:"Projects", href:'#'},
     // {name:"Dreamspark", href:"/dreamspark"},
     {name:"Members", href:"/members"},
-    {name:"Contact Us", href:"/contact-us"}
+    {name:"Register", href:"/register"}
 ]
 
 export default function Navbar() {
@@ -33,10 +33,10 @@ export default function Navbar() {
                 <div className="flex flex-1 items-center justify-end md:justify-start">
                   <img
                     className="block h-16 md:h-20 w-auto py-1 md:py-2"
-                    src={process.env.PUBLIC_URL + "/images/mstc.png"}
+                    src={process.env.PUBLIC_URL + "/images/c3.png"}
                     alt="MSTC"
                   />
-                  <img
+                  {/* <img
                     className="block h-16 md:h-20 w-auto py-1 md:py-2"
                     src={process.env.PUBLIC_URL + "/images/x2.png"}
                     alt="X"
@@ -45,7 +45,7 @@ export default function Navbar() {
                     className="block h-16 md:h-20 w-auto py-1 md:py-2"
                     src={process.env.PUBLIC_URL + "/images/iitgn.png"}
                     alt="IITGN"
-                  />
+                  /> */}
                 </div>
                 <div className="hidden md:block">
                   <div className="flex space-x-8">

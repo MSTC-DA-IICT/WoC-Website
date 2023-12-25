@@ -4,180 +4,173 @@
         "events":[
             {
                 "name":"Jigsaw Puzzle",
-                "img":"/events/hacktoberfest23.png",
-                "description":"Hacktoberfest, with MSTC serving as a dedicated maintainer, emerges as an exciting opportunity for tech enthusiasts. MSTC's diverse projects spanning multiple technical domains not only provide participants with a chance to contribute to open source but also to win enticing prizes and goodies. This collaborative initiative not only promotes the spirit of open-source development but also offers a valuable learning experience, encouraging individuals to explore and engage with cutting-edge technologies while making meaningful contributions to the global tech community.",
-                "listTitle":"Repositories",
+                "img":"/events/reactjs.png",
+                "description":"HTML, CSS, and JavaScript are considered as a base for web development. They are prerequisites for all web technologies, frameworks, and other languages. JavaScript is the most popular programming language and has applications everywhere. The web has evolved dramatically and rapidly since the last decade and its the platform where the most innovations have been taking place in software development. So lets get started into web development by making an easy yet useful and fun application.In this project, we will be creating a jigsaw puzzle website where you can upload any picture and the site will turn it into a 3x3 jigsaw puzzle. You can then drag and drop the puzzle pieces in the box to get the original picture back.",
+                "listTitle":"Project",
                 "list":[
-                    ["Python StarterKit", "https://github.com/MSTC-DA-IICT/Hacktoberfest23-Python-StarterKit"],
-                    ["Develop-Chess: HTML-CSS-JS", "https://github.com/MSTC-DA-IICT/Hacktoberfest23-Develop-Chess"],
-                    ["PythonCraft: AdvanceEdition","https://github.com/MSTC-DA-IICT/Hacktoberfest23-PythonCraft-AdvanceEdition"],
-                    ["ReACTivate","https://github.com/MSTC-DA-IICT/Hacktoberfest23-ReACTivate"],
-                    ["Real Time Chat Application - Node JS", "https://github.com/MSTC-DA-IICT/Hacktoberfest23-Real-time-Chat-app-Nodejs"],
-                    ["Sport Chat Web Application - Django", "https://github.com/MSTC-DA-IICT/HacktoberFest23-Django-SportChat-WebApp"],
-                    ["Delve into ML", "https://github.com/MSTC-DA-IICT/Hacktoberfest23-Delve-into-ML"],
-                    ["SudoDroids", "https://github.com/MSTC-DA-IICT/Hacktoberfest2023-SudoDroids"],
-                    ["Expense Tracker App - Flutter", "https://github.com/MSTC-DA-IICT/Hacktoberfest23-Expense-Tracker-app-Flutter"],
-                    ["The Interface Conundrum","https://github.com/MSTC-DA-IICT/Hacktoberfest23-The-Interface-Conundrum"]
-                ]
-            },
-            {
-                "name":"Hacktoberfest 2022",
-                "img":"/events/hacktoberfest22.png",
-                "description":"Hacktoberfest, with MSTC serving as a dedicated maintainer, emerges as an exciting opportunity for tech enthusiasts. MSTC's diverse projects spanning multiple technical domains not only provide participants with a chance to contribute to open source but also to win enticing prizes and goodies. This collaborative initiative not only promotes the spirit of open-source development but also offers a valuable learning experience, encouraging individuals to explore and engage with cutting-edge technologies while making meaningful contributions to the global tech community.",
-                "listTitle":"Repositories",
-                "list":[
-                    ["E-Learn-App-Django", "https://github.com/MSTC-DA-IICT/Hacktoberfest22-E-Learn-App-Django"],
-                    ["Fun-with-JS", "https://github.com/MSTC-DA-IICT/Hacktoberfest22-Fun-with-JS"],
-                    ["Blog-App", "https://github.com/MSTC-DA-IICT/Hacktoberfest22-Blog-App"],
-                    ["R-for-React", "https://github.com/MSTC-DA-IICT/Hacktoberfest22-R-for-React"],
-                    ["Mess-with-ML", "https://github.com/MSTC-DA-IICT/HacktoberFest22-Mess-with-ML"],
-                    ["Awesome-Android", "https://github.com/MSTC-DA-IICT/Hacktoberfest22-Awesome-Android"],
-                    ["Play-with-Python", "https://github.com/MSTC-DA-IICT/HacktoberFest22-Play-with-Python"],
-                    ["Dare-2-Design", "https://github.com/MSTC-DA-IICT/Hacktoberfest22-dare-2-design"]
-                ]
-            },
-            {
-                "name":"Hacktoberfest 2021",
-                "img":"/events/hacktoberfest21.png",
-                "description":"Hacktoberfest, with MSTC serving as a dedicated maintainer, emerges as an exciting opportunity for tech enthusiasts. MSTC's diverse projects spanning multiple technical domains not only provide participants with a chance to contribute to open source but also to win enticing prizes and goodies. This collaborative initiative not only promotes the spirit of open-source development but also offers a valuable learning experience, encouraging individuals to explore and engage with cutting-edge technologies while making meaningful contributions to the global tech community.",
-                "listTitle":"Repositories",
-                "list":[
-                    ["Movie-WatchList", "https://github.com/MSTC-DA-IICT/Movie-WatchList"],
-                    ["B-for-Blog", "https://github.com/MSTC-DA-IICT/B-for-Blog"],
-                    ["Data-Science-Machine-Learning", "https://github.com/MSTC-DA-IICT/Data-Science-Machine-Learning"],
-                    ["Sun-Chokdi", "https://github.com/MSTC-DA-IICT/Sun-Chokdi"],
-                    ["REST-API-Node", "https://github.com/MSTC-DA-IICT/REST-API-Node"],
-                    ["OpenScripts", "https://github.com/MSTC-DA-IICT/OpenScripts"],
-                    ["We-demy", "https://github.com/MSTC-DA-IICT/We-demy"],
-                    ["React Portfolio", "https://github.com/MSTC-DA-IICT/react-portfolio"]
+                    ["Documentation", "https://docs.google.com/document/d/1XXCeI29Lpz0rkHiImz2e3p2DR8tqO6SYFjDZu1cjVM0/edit?usp=drive_link"],
+                    ["Demo Video", "https://youtube.com"],
+                    ["Slack Channel", "https://slack.com"]
                 ]
             }
         ]
     },
     {
-        "title":"Winter Of Code",
+        "title":"Python with GUI",
         "events":[
             {
-                "name":"WoC 5.0",
-                "img":"/events/woc5.png",
-                "description":"MSTC conducted the fifth edition of Winter of Code (WoC 5.0). It proved to be a great platform for budding developers as they could encash the opporunity to learn new a technology from sratch and build a project, utilizing the stuff they had learnt. The participants were guided by experienced student mentors throughout the course of the event.",
-                "listTitle":"Projects",
+                "name":"Anki-RecallHub",
+                "img":"/events/reactjs.png",
+                "description":"Elevate your memory game using our Flash Card App developed in Python with PyQt5! Craft flashcards for text and images. The app employs a smart algorithm to dynamically adjust revision timings of flashcards based on user-defined categories such as easy, hard, or good. Dive into effective revision with this intuitive tool, all powered by the Python PyQt5 framework.",
+                "listTitle":"Project",
                 "list":[
-                    ["Android : Social Media App", "https://youtu.be/o66EavXESuY?si=FkGQsMWhr2lwbejq"],
-                    ["React JS : Menu App", ""],
-                    ["Node JS : Job Portal", "https://youtu.be/F2PxkzZ3w0U?si=qYbFRSzK0RjZE29n"],
-                    ["Machine Learning : Weather Prediction Case Study", "https://youtu.be/C2gavMLvh5U?si=edljq33NQot3PvqJ"],
-                    ["Django : Interview Experience Blog", "https://youtu.be/HRouqDsGSko?si=36jzBisa6MxDDd4J"],
-                    ["HTML, CSS & Javascript : Expense Tracker", ""],
-                    ["Python : MS Word Clone", "https://youtu.be/JpZd26SXmhE?si=KfJFS4HSuT6f_1yV"],
-                    ["UI/UX Design And Prototyping", "https://youtu.be/zkqZBjeXORk?si=JLTQdIcQCRZd65CO"]
-                ]
-            },
-            {
-                "name":"WoC 4.0",
-                "img":"/events/woc4.png",
-                "description":"MSTC conducted the fourth edition of Winter of Code (WoC 4.0). It proved to be a great platform for budding developers as they could encash the opporunity to learn new a technology from sratch and build a project, utilizing the stuff they had learnt. The participants were guided by experienced student mentors throughout the course of the event.",
-                "listTitle":"Projects",
-                "list":[
-                    ["Android : News App","https://youtu.be/-8dIE2snDfI"],
-                    ["React JS : Bingewatcher's Twitter","https://youtu.be/E9GuRpG2nbk"],
-                    ["Node JS : Blog Web App","https://youtu.be/nGKhXGWZU98"],
-                    ["Machine Learning : Sentiment Analysis",""],
-                    ["Django : Event Manager Web App","https://youtu.be/vByCWm1K1II"],
-                    ["HTML, CSS & Javascript : Notes App","https://youtu.be/AWjL5w0LXI8"],
-                    ["Python : Image Editor","https://youtu.be/repT0HxIy1c"],
-                    ["UI/UX Design And Prototyping","https://youtu.be/wfO51EMVIAs"]
-                ]
-            },
-            {
-                "name":"WoC 3.0",
-                "img":"/events/woc3.png",
-                "description":"MSTC conducted the third edition of Winter of Code (WoC 3.0). It proved to be a great platform for budding developers as they could encash the opporunity to learn new a technology from sratch and build a project, utilizing the stuff they had learnt. The participants were guided by experienced student mentors throughout the course of the event.",
-                "listTitle":"Projects",
-                "list":[
-                    "Android : Real-time Chat App",
-                    "Django : Event Manager Web App",
-                    "Javascript : Keypress Information Visualizer",
-                    "Web-Scraping : E-commerce Price Tracker",
-                    "Python : RPG Discord Bot",
-                    "UI/UX Design And Prototyping"
-                ]
-            },
-            {
-                "name":"WoC 2.0",
-                "img":"/events/woc2.png",
-                "description":"MSTC conducted the second edition of Winter of Code (WoC 2.0) from Dec '19 to Jan '20. It proved to be a great platform for budding developers as they could encash the opporunity to learn new a technology from sratch and build a project, utilizing the stuff they had learnt. The participants were guided by experienced student mentors throughout the course of the event.",
-                "listTitle":"Projects",
-                "list":[
-                    ["Android : Password Manager", "https://youtu.be/68s-JSHttWs?si=yjkqvJ8N1PY5lIZP"],
-                    ["Android : Movie Search App", "https://youtu.be/Qlws6AUoFwQ?si=tsBdlT8GVrOJcRuf"],
-                    ["Javascript : Quiz Game", "https://youtu.be/ouzVMpoc7u4?si=-DEE-9UWy3Ztid4O"],
-                    ["Data Science :  Profitable App Profiles", "https://youtu.be/O8mhUHw-w_I?si=mMIxRVyN5Z04zY15"],
-                    ["Django : Visitor Management System", "https://youtu.be/6jDfbqYkW3o?si=AwPWi1QRNARkE1bI"],
-                    ["Python : To-Do List App", "https://youtu.be/x46yIyco7EQ?si=BrBMgCuMEuXwzoqJ"]
-                ]
-            },
-            {
-                "name":"WoC 1.0",
-                "img":"/events/woc1.png",
-                "description":"MSTC conducted the first edition of Winter of Code (WoC 1.0). It proved to be a great platform for budding developers as they could encash the opporunity to learn new a technology from sratch and build a project, utilizing the stuff they had learnt. The participants were guided by experienced student mentors throughout the course of the event.",
-                "listTitle":"Projects",
-                "list":[
-                    "Android : Password Manager",
-                    "Game Development : Ping Pong Game",
-                    "Javascript : Quiz Game",
-                    "Django :  URL Shortner",
-                    "Web-Scraping : E-commerce Price Tracker",
-                    "Python : To-Do List App",
-                    "HTML, CSS & Javascript : One-page Responsive Website"
+                    ["Documentation", "https://docs.google.com/document/d/1xaMaTQiM2Iw7kdV3V9Mo6_npdCoOImIF/edit?usp=sharing&ouid=108052529289297600560&rtpof=true&sd=true"],
+                    ["Demo Video", "https://youtube.com"],
+                    ["Slack Channel", "https://slack.com"]
                 ]
             }
         ]
     },
     {
-        "title":"Face Off",
+        "title":"React JS",
         "events":[
             {
-                "name":"Face Off 3.0",
-                "img":"/events/archive/faceoff3.png",
-                "description":"MSTC's third edition of Face Off 3.0 proved to be a thrilling platform for competitive programmers. With its knockout-based elimination rounds, the event brought together programmers from various backgrounds to showcase their coding prowess and problem-solving skills. It not only fueled healthy competition but also fostered a sense of community and camaraderie within the competitive programming culture, contributing to the growth and enrichment of this dynamic field.",
-                "listTitle":"Contests for 1st yearites",
+                "name":"IRCTC",
+                "img":"/events/reactjs.png",
+                "description":"We are making a third-party travel booking website. Just like a clone of IRCTC. in this journey, we are using tech-Stack such as HTML, CSS, Javascript, ReactJs and Firebase. That's it, only 5. We are mainly focused on ReactJs. So let's discuss our project, and how we are building it.? Our project mainly has three parts: Search for the source to the destination path, book the ticket, and cancel the ticket. These parts are the building blocks of our website. based on these, we are implementing payment, booked ticket list, cancelled ticked list, user profile,...... and many more. This journey is very interesting and very meaningful. here you find some challenges to implementing some kind of feature. so enjoy, start learning and developing.",
+                "listTitle":"Project",
                 "list":[
-                    ["Qualifiers (1st yearites)", "https://codeforces.com/gym/430499"],
-                    ["Round-2 (1st yearites)", "https://codeforces.com/gym/432491"],
-                    ["Round-3 (1st yearites)", "https://codeforces.com/gym/434771"],
-                    ["Qualifiers", "https://codeforces.com/gym/430500"],
-                    ["Round-2", "https://codeforces.com/gym/432490"],
-                    ["Round-3", "https://codeforces.com/gym/434607"],
-                    ["Finals", "https://codeforces.com/gym/434765"]
+                    ["Documentation", "https://docs.google.com/document/d/10W6uujkrPJ6MB3yhX6-P02jhsRQEhziM/edit?usp=sharing&ouid=108052529289297600560&rtpof=true&sd=true"],
+                    ["Demo Video", "https://youtube.com"],
+                    ["Slack Channel", "https://slack.com"]
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "title":"Node JS",
+        "events":[
             {
-                "name":"Face Off 2.0",
-                "img":"/events/faceoff2.png",
-                "description":"MSTC's second edition of Face Off 2.0 proved to be a thrilling platform for competitive programmers. With its knockout-based elimination rounds, the event brought together programmers from various backgrounds to showcase their coding prowess and problem-solving skills. It not only fueled healthy competition but also fostered a sense of community and camaraderie within the competitive programming culture, contributing to the growth and enrichment of this dynamic field.",
-                "listTitle":"Contests",
+                "name":"Pictionary App",
+                "img":"/events/reactjs.png",
+                "description":"The project involves creating a Pictionary game using NodeJs, HTML, CSS, and JS for the frontend. The game allows users to create or join rooms, where one player draws on a canvas based on a given word, and others guess the word from the drawing.",
+                "listTitle":"Project",
                 "list":[
-                    ["Qualifiers", "https://www.codechef.com/FAQ22021"],
-                    ["Round of 32", "https://www.codechef.com/FAT12021"],
-                    ["Round of 16", "https://www.codechef.com/FOT22021 "],
-                    ["Round of 8", "https://www.codechef.com/FT822021"],
-                    ["Round of 4", "https://www.codechef.com/FT422021"],
-                    ["Finals", "https://www.codechef.com/FOF22021"]
+                    ["Documentation", "https://docs.google.com/document/d/1fnYwEs_vqSVgYwrxsfSSflYP5FN70pPWPp0HF1EfkkU/edit?usp=sharing"],
+                    ["Demo Video", "https://youtube.com"],
+                    ["Slack Channel", "https://slack.com"]
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "title":"Systems Programming",
+        "events":[
             {
-                "name":"Face Off 1.0",
-                "img":"/events/faceoff1.png",
-                "description":"MSTC's first edition of Face Off 1.0 proved to be a thrilling platform for competitive programmers. With its knockout-based elimination rounds, the event brought together programmers from various backgrounds to showcase their coding prowess and problem-solving skills. It not only fueled healthy competition but also fostered a sense of community and camaraderie within the competitive programming culture, contributing to the growth and enrichment of this dynamic field.",
-                "listTitle":"Contests",
+                "name":"Version Control System",
+                "img":"/events/reactjs.png",
+                "description":"This project aims to delve into the world of version control systems (VCS), with a particular focus on developing a system similar to Git. The emphasis is on understanding the core concepts of version control, highlighting the importance of tracking and managing changes in software development.Version control is crucial in software development for tracking and managing changes to software code over time. It allows developers to revert to previous versions if necessary, collaborate effectively, and ensure the integrity and continuity of their codebase.",
+                "listTitle":"Project",
                 "list":[
-                    ["Qualifiers", "https://www.codechef.com/FAQ22021"],
-                    ["Round of 32", "https://www.codechef.com/FAT12021"],
-                    ["Round of 16", "https://www.codechef.com/FOT22021 "],
-                    ["Round of 8", "https://www.codechef.com/FT822021"],
-                    ["Round of 4", "https://www.codechef.com/FT422021"],
-                    ["Finals", "https://www.codechef.com/FOF22021"]
+                    ["Documentation", "https://docs.google.com/document/d/1bHAA3S-hw7V_6hNuY3kPSOMscOoNZeb2/edit?usp=sharing&ouid=108052529289297600560&rtpof=true&sd=true"],
+                    ["Demo Video", "https://youtube.com"],
+                    ["Slack Channel", "https://slack.com"]
+                ]
+            }
+        ]
+    },
+    {
+        "title":"Django",
+        "events":[
+            {
+                "name":"Disaster Management System",
+                "img":"/events/reactjs.png",
+                "description":"The project is about creating a website that can do a lot for managing events. It's not just a static site – it's dynamic and can do things like letting people sign up for events, register as participants, and check out dashboards with data. It's a cool example of full-stack web development because the person working on it not only decides how the website looks but also figures out how it works behind the scenes.To make all this happen, the project uses a bunch of behind-the-scenes communication (GET and POST requests) between your web browser and the server. The server takes care of storing and getting back the information from a database. What's interesting is that everything runs on a local server, which means you have control over it!",
+                "listTitle":"Project",
+                "list":[
+                    ["Documentation", "https://docs.google.com/document/d/1oSwRbFgMZ_stGxO8hkAJagjBWAXoPXDPPD6puiI-1xQ/edit?usp=sharing"],
+                    ["Demo Video", "https://youtube.com"],
+                    ["Slack Channel", "https://slack.com"]
+                ]
+            }
+        ]
+    },
+    {
+        "title":"Flutter",
+        "events":[
+            {
+                "name":"The Stock App",
+                "img":"/events/reactjs.png",
+                "description":"We are making a Stock Market Trading Application, wherein our users are the Investors. Users are allowed to Buy/Sell the Shares of a particular stock. Users can view all the stock listed in NSE/BSE in the “All Stock” section. Also, they can view all the details about a particular stock, wherein they can view Graph, Performance, Opening & Closing Price. Our Application provides the Top Gainers & Losers of the day. Users can see the News and the upcoming IPO. Users can manage his Watchlist. Our Application also included the Profile and Portfolio section.",
+                "listTitle":"Project",
+                "list":[
+                    ["Documentation", "https://docs.google.com/document/d/1JdMKGU9KYtqjiWyJwciKVaRJIGaRmdLJ/edit?usp=sharing&ouid=108052529289297600560&rtpof=true&sd=true"],
+                    ["Demo Video", "https://youtube.com"],
+                    ["Slack Channel", "https://slack.com"]
+                ]
+            }
+        ]
+    },
+    {
+        "title":"Data Science(Basics)",
+        "events":[
+            {
+                "name":"",
+                "img":"/events/reactjs.png",
+                "description":"Data Science (Basic) is a fundamental hands-on introduction to data science project intended for audiences exploring data science and related fields for the first time. The project will provide a general overview of the workflow involved in data sciences, and guide the participants in drawing inferences from the data and answering questions based on it with an application-based industry-relevant example.On successful completion of project, the participants would gain basic know-how about the approach to solving data sciences problems and perform exploratory data analysis independently on datasets of their choice. In this project, the objective would be to process the data and predict a target data based on inputs from processed data.",
+                "listTitle":"Project",
+                "list":[
+                    ["Documentation", "https://docs.google.com/document/d/1dFFysoUSDWzNU3LjYP8WOBHMygcucRlj/edit?usp=sharing&ouid=108052529289297600560&rtpof=true&sd=true"],
+                    ["Demo Video", "https://youtube.com"],
+                    ["Slack Channel", "https://slack.com"]
+                ]
+            }
+        ]
+    },
+    {
+        "title":"Data Science(Advanced)",
+        "events":[
+            {
+                "name":"Image Classifier",
+                "img":"/events/reactjs.png",
+                "description":"The objective of this Advanced Data Science Project is to create an image classifier. This will tell which category the input image falls into. In this project, participants will scrape images from Google and create their own dataset. The dataset should contain more than 100 images of <class1>, <class2> and <class3> each. These images will be of different sizes, resolution, color models (RGB, Greyscale etc.) and other parameters. The data needs to be cleaned and preprocessed.Once the dataset is created, it has to be fed into a model that does the classification.",
+                "listTitle":"Project",
+                "list":[
+                    ["Documentation", "https://docs.google.com/document/d/18PZs9Xnu2pTmOCryuMtyqpO4RgGzNfV-sz2CHM2TuWE/edit?usp=sharing"],
+                    ["Demo Video", "https://youtube.com"],
+                    ["Slack Channel", "https://slack.com"]
+                ]
+            }
+        ]
+    },
+    {
+        "title":"Deep Learning(Basics)",
+        "events":[
+            {
+                "name":"Name generation model",
+                "img":"/events/reactjs.png",
+                "description":"In this project, participants will learn how to create a name generation model using both LSTM (Long Short-Term Memory) and GRU (Gated Recurrent Unit) neural networks. The project involves training these networks on a dataset of names to learn patterns and generate new, unique names. This hands-on experience offers insights into recurrent neural network architectures, data preprocessing for natural language processing, and the intricacies of model training and evaluation.",
+                "listTitle":"Project",
+                "list":[
+                    ["Documentation", "https://docs.google.com/document/d/1CCTsgq8gOw6dt4x3D8yWB3VL8WMM5BN-/edit?usp=sharing&ouid=108052529289297600560&rtpof=true&sd=true"],
+                    ["Demo Video", "https://youtube.com"],
+                    ["Slack Channel", "https://slack.com"]
+                ]
+            }
+        ]
+    },
+    {
+        "title":"Deep Learning(Advanced)",
+        "events":[
+            {
+                "name":"Name generation model",
+                "img":"/events/reactjs.png",
+                "description":"In this project, participants will learn how to create a name generation model using both LSTM (Long Short-Term Memory) and GRU (Gated Recurrent Unit) neural networks. The project involves training these networks on a dataset of names to learn patterns and generate new, unique names. This hands-on experience offers insights into recurrent neural network architectures, data preprocessing for natural language processing, and the intricacies of model training and evaluation.",
+                "listTitle":"Project",
+                "list":[
+                    ["Documentation", "https://docs.google.com/document/d/1CCTsgq8gOw6dt4x3D8yWB3VL8WMM5BN-/edit?usp=sharing&ouid=108052529289297600560&rtpof=true&sd=true"],
+                    ["Demo Video", "https://youtube.com"],
+                    ["Slack Channel", "https://slack.com"]
                 ]
             }
         ]

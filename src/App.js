@@ -59,9 +59,9 @@ class App extends React.Component {
       <Navbar className="z-2"/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/events" element={<Events />} />
+        <Route path="/categories" element={<Events />} />
         <Route path="/members" element={<Members />} />
-        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/register" element={<ContactUs />} />
       </Routes>
       <Footer/>
       </div>

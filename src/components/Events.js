@@ -12,7 +12,7 @@ export default function Events(){
     };
     
     return(
-        <div className="pt-32 mx-8 sm:mx-16 md:mx-24 lg:mx-40 text-gray-100">
+        <div className="pt-32 mx-16 sm:mx-16 md:mx-24 lg:mx-40 text-gray-100">
             {EventData.map((category) => (
             <div className="">
                 <h1 className="text-2xl md:text-4xl mb-10 font-medium text-center">
